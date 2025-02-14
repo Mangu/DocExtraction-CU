@@ -1,0 +1,39 @@
+{
+    "name": "lchtemplate_agreeement",
+    "description": "Extract parties and collateral information from ISDA agreement",
+    "scenario": "document",
+    "fieldSchema": {
+        "fields": {
+            "Collateral": {
+                "type": "array",
+                "method": "extract",
+                "description": "This collateral Table with different countries' Government Securities and different Maturity levels might span multiple pages, wrap everything under eligible collateral section,  all of which must be extracted for each asset value",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "AssetType": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Extract the assets in Government Securities. Extract into multiple rows if different asset types are separated by row or by a comma i.e (Bills, Notes, Bonds). Extract as many asset types that are present"
+                        },
+                        "HaircutPercentage": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Haircut Percentage column"
+                        },
+                        "MinimumMaturity": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Extract from the Maturity row header. Anything on the LEFT side of the term years expression, is the value WITH the sign. Example: >2yr <= 5 yrs would return '> 2yr'. Another example: > 5yrs <= 7 yrs Maturity would return '> 5yrs'. Note that the values can repeat"
+                        },
+                        "MaximumMaturity": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Extract from the Maturity row header. Anything on the RIGHT side of the term years expression, is the value WITH the sign. Example: >2yr <= 5 yrs would retur '<= 5yrs'. Another example: > 5yrs <= 7 yrs Maturity would return '<= 7yrs'. Note that the values can repeat"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
