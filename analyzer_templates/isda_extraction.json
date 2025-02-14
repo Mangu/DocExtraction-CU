@@ -1,0 +1,49 @@
+{
+    "name": "ISDA_agreeement",
+    "description": "Extract parties and collateral information from ISDA agreement",
+    "scenario": "document",
+    "fieldSchema": {
+        "fields": {
+           "PartyA": {
+                "type": "string",
+                "method": "extract",
+                "description": "Party A"
+            },
+            "PartyB": {
+                "type": "string",
+                "method": "extract",
+                "description": "Party A"
+            },
+            "Collateral": {
+                "type": "array",
+                "method": "extract",
+                "description": "This collateral table might span multiple pages, wrap everything under eligible collateral section",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "AssetType": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "This is the first column in the table. It often does not have a column name."
+                        },
+                        "ValuationPercentage": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Valuation Percentage column"
+                        },
+                        "MinimumMaturity": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Extract the text describing the Minimum tenure maturity years, so if it says LESS than one year, the result would be one year. if it says more than ten years, the min would be ten years. otherwise, if it says not more than put 0. it is always part of the asset type text, not its own column if the asset type is cash it is N/A"
+                        },
+                        "MaximumMaturity": {
+                            "type": "string",
+                            "method": "extract",
+                            "description": "Extract the text describing the Maximum tenure maturity years, so if it says one year or more but less than five, the max would be five year. otherwise put N/A. it is always part of the asset type text, not its own column"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
