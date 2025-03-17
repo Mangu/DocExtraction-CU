@@ -5,6 +5,8 @@ azure-identity
 azure-search-documents
 langchain
 tiktoken
+pandas
+pdf2image
 python-dotenv
 pillow
 langchain-openai

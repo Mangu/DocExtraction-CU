@@ -1,0 +1,513 @@
+{
+    "data": {
+        "customer_name": "Sharp Consulting",
+        "customer_address": {
+            "street": "73 Regal Way",
+            "city": "Leeds",
+            "state": null,
+            "postal_code": "LS1 5AB",
+            "country": "UK"
+        },
+        "customer_tax_id": null,
+        "shipping_address": null,
+        "purchase_order": "15931",
+        "invoice_id": "3847193",
+        "invoice_date": "2024-05-16",
+        "payable_by": "2024-05-24",
+        "vendor_name": "NEXGEN",
+        "vendor_address": null,
+        "vendor_tax_id": null,
+        "remittance_address": null,
+        "subtotal": null,
+        "total_discount": null,
+        "total_tax": null,
+        "invoice_total": 293.52,
+        "payment_terms": null,
+        "items": [
+            {
+                "product_code": "MA197",
+                "description": "STRETCHWRAP ROLL",
+                "quantity": 5,
+                "tax": null,
+                "tax_rate": null,
+                "unit_price": 16.62,
+                "total": 83.1,
+                "reason": null
+            },
+            {
+                "product_code": "ST4086",
+                "description": "BALLPOINT PEN MED.",
+                "quantity": 10,
+                "tax": null,
+                "tax_rate": null,
+                "unit_price": 2.49,
+                "total": 24.9,
+                "reason": null
+            },
+            {
+                "product_code": "JF9912413BF",
+                "description": "BUBBLE FILM ROLL CL.",
+                "quantity": 12,
+                "tax": null,
+                "tax_rate": null,
+                "unit_price": 15.46,
+                "total": 185.52,
+                "reason": null
+            }
+        ],
+        "total_item_quantity": 27.0,
+        "items_customer_signature": {
+            "signatory": "Sarah H",
+            "is_signed": true
+        },
+        "items_vendor_signature": {
+            "signatory": "James T",
+            "is_signed": false
+        },
+        "returns": [
+            {
+                "product_code": "MA145",
+                "description": "POSTAL TUBE BROWN",
+                "quantity": 1,
+                "tax": null,
+                "tax_rate": null,
+                "unit_price": null,
+                "total": null,
+                "reason": "This item was provided in previous order"
+            },
+            {
+                "product_code": "JF7902",
+                "description": "MAILBOX 25PK",
+                "quantity": 1,
+                "tax": null,
+                "tax_rate": null,
+                "unit_price": null,
+                "total": null,
+                "reason": "as replacement"
+            }
+        ],
+        "total_return_quantity": 2.0,
+        "returns_customer_signature": {
+            "signatory": "Sarah H",
+            "is_signed": true
+        },
+        "returns_vendor_signature": {
+            "signatory": "James T",
+            "is_signed": true
+        }
+    },
+    "confidence": {
+        "subtotal": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "invoice_date": {
+            "confidence": 0.9999959049436264,
+            "value": "2024-05-16"
+        },
+        "shipping_address": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "remittance_address": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "items": [
+            {
+                "product_code": {
+                    "confidence": 0.997,
+                    "value": "MA197"
+                },
+                "description": {
+                    "confidence": 0.989,
+                    "value": "STRETCHWRAP ROLL"
+                },
+                "quantity": {
+                    "confidence": 0.996,
+                    "value": 5
+                },
+                "tax": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "tax_rate": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "unit_price": {
+                    "confidence": 0.997,
+                    "value": 16.62
+                },
+                "total": {
+                    "confidence": 0.9963232788816747,
+                    "value": 83.1
+                },
+                "reason": {
+                    "confidence": 0.0,
+                    "value": null
+                }
+            },
+            {
+                "product_code": {
+                    "confidence": 0.997,
+                    "value": "ST4086"
+                },
+                "description": {
+                    "confidence": 0.992,
+                    "value": "BALLPOINT PEN MED."
+                },
+                "quantity": {
+                    "confidence": 0.998,
+                    "value": 10
+                },
+                "tax": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "tax_rate": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "unit_price": {
+                    "confidence": 0.992,
+                    "value": 2.49
+                },
+                "total": {
+                    "confidence": 0.996,
+                    "value": 24.9
+                },
+                "reason": {
+                    "confidence": 0.0,
+                    "value": null
+                }
+            },
+            {
+                "product_code": {
+                    "confidence": 0.995,
+                    "value": "JF9912413BF"
+                },
+                "description": {
+                    "confidence": 0.986,
+                    "value": "BUBBLE FILM ROLL CL."
+                },
+                "quantity": {
+                    "confidence": 0.998,
+                    "value": 12
+                },
+                "tax": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "tax_rate": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "unit_price": {
+                    "confidence": 0.998,
+                    "value": 15.46
+                },
+                "total": {
+                    "confidence": 0.996,
+                    "value": 185.52
+                },
+                "reason": {
+                    "confidence": 0.0,
+                    "value": null
+                }
+            }
+        ],
+        "payment_terms": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "total_discount": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "purchase_order": {
+            "confidence": 0.995,
+            "value": "15931"
+        },
+        "total_item_quantity": {
+            "confidence": 0.0,
+            "value": 27.0
+        },
+        "invoice_id": {
+            "confidence": 0.998,
+            "value": "3847193"
+        },
+        "invoice_total": {
+            "confidence": 0.994,
+            "value": 293.52
+        },
+        "total_tax": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "vendor_address": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "customer_name": {
+            "confidence": 0.994,
+            "value": "Sharp Consulting"
+        },
+        "items_vendor_signature": {
+            "signatory": {
+                "confidence": 0.865,
+                "value": "James T"
+            },
+            "is_signed": {
+                "confidence": 0.0,
+                "value": false
+            }
+        },
+        "items_customer_signature": {
+            "signatory": {
+                "confidence": 0.548,
+                "value": "Sarah H"
+            },
+            "is_signed": {
+                "confidence": 0.0,
+                "value": true
+            }
+        },
+        "customer_address": {
+            "street": {
+                "confidence": 0.987,
+                "value": "73 Regal Way"
+            },
+            "city": {
+                "confidence": 0.987,
+                "value": "Leeds"
+            },
+            "state": {
+                "confidence": 0.0,
+                "value": null
+            },
+            "postal_code": {
+                "confidence": 0.987,
+                "value": "LS1 5AB"
+            },
+            "country": {
+                "confidence": 0.987,
+                "value": "UK"
+            }
+        },
+        "vendor_tax_id": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "vendor_name": {
+            "confidence": 0.995,
+            "value": "NEXGEN"
+        },
+        "customer_tax_id": {
+            "confidence": 0.0,
+            "value": null
+        },
+        "payable_by": {
+            "confidence": 0.9999997641227512,
+            "value": "2024-05-24"
+        },
+        "returns": [
+            {
+                "product_code": {
+                    "confidence": 0.996,
+                    "value": "MA145"
+                },
+                "description": {
+                    "confidence": 0.992,
+                    "value": "POSTAL TUBE BROWN"
+                },
+                "quantity": {
+                    "confidence": 0.994,
+                    "value": 1
+                },
+                "tax": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "tax_rate": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "unit_price": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "total": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "reason": {
+                    "confidence": 0.662,
+                    "value": "This item was provided in previous order"
+                }
+            },
+            {
+                "product_code": {
+                    "confidence": 0.995,
+                    "value": "JF7902"
+                },
+                "description": {
+                    "confidence": 0.992,
+                    "value": "MAILBOX 25PK"
+                },
+                "quantity": {
+                    "confidence": 0.7931288708667036,
+                    "value": 1
+                },
+                "tax": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "tax_rate": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "unit_price": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "total": {
+                    "confidence": 0.0,
+                    "value": null
+                },
+                "reason": {
+                    "confidence": 0.834,
+                    "value": "as replacement"
+                }
+            }
+        ],
+        "total_return_quantity": {
+            "confidence": 0.0,
+            "value": 2.0
+        },
+        "returns_customer_signature": {
+            "signatory": {
+                "confidence": 0.548,
+                "value": "Sarah H"
+            },
+            "is_signed": {
+                "confidence": 0.0,
+                "value": true
+            }
+        },
+        "returns_vendor_signature": {
+            "signatory": {
+                "confidence": 0.865,
+                "value": "James T"
+            },
+            "is_signed": {
+                "confidence": 0.0,
+                "value": true
+            }
+        },
+        "_overall": 0.9455644162845988
+    },
+    "accuracy": {
+        "accuracy": {
+            "customer_name": 1,
+            "customer_address": {
+                "street": 1,
+                "city": 1,
+                "state": 1,
+                "postal_code": 1,
+                "country": 1
+            },
+            "customer_tax_id": 1,
+            "shipping_address": 1,
+            "purchase_order": 1,
+            "invoice_id": 1,
+            "invoice_date": 1,
+            "payable_by": 1,
+            "vendor_name": 1,
+            "vendor_address": 1,
+            "vendor_tax_id": 1,
+            "remittance_address": 1,
+            "subtotal": 0,
+            "total_discount": 1,
+            "total_tax": 1,
+            "invoice_total": 1,
+            "payment_terms": 1,
+            "items": [
+                {
+                    "product_code": 1,
+                    "description": 1,
+                    "quantity": 1,
+                    "tax": 1,
+                    "tax_rate": 1,
+                    "unit_price": 1,
+                    "total": 1,
+                    "reason": 1
+                },
+                {
+                    "product_code": 1,
+                    "description": 1,
+                    "quantity": 1,
+                    "tax": 1,
+                    "tax_rate": 1,
+                    "unit_price": 1,
+                    "total": 1,
+                    "reason": 1
+                },
+                {
+                    "product_code": 1,
+                    "description": 1,
+                    "quantity": 1,
+                    "tax": 1,
+                    "tax_rate": 1,
+                    "unit_price": 1,
+                    "total": 1,
+                    "reason": 1
+                }
+            ],
+            "total_item_quantity": 1,
+            "items_customer_signature": {
+                "signatory": 1,
+                "is_signed": 1
+            },
+            "items_vendor_signature": {
+                "signatory": 1,
+                "is_signed": 0
+            },
+            "returns": [
+                {
+                    "product_code": 1,
+                    "description": 1,
+                    "quantity": 1,
+                    "tax": 1,
+                    "tax_rate": 1,
+                    "unit_price": 1,
+                    "total": 1,
+                    "reason": 0
+                },
+                {
+                    "product_code": 1,
+                    "description": 1,
+                    "quantity": 1,
+                    "tax": 1,
+                    "tax_rate": 1,
+                    "unit_price": 1,
+                    "total": 1,
+                    "reason": 0
+                }
+            ],
+            "total_return_quantity": 1,
+            "returns_customer_signature": {
+                "signatory": 1,
+                "is_signed": 1
+            },
+            "returns_vendor_signature": {
+                "signatory": 1,
+                "is_signed": 1
+            }
+        },
+        "overall": 0.9459459459459459
+    },
+    "prompt_tokens": 3384,
+    "completion_tokens": 443,
+    "execution_time": 17.316984000150114
+}
