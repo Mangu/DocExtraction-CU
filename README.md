@@ -13,7 +13,6 @@ This repository contains the `Extraction` Jupyter Notebooks which is used for do
 - **Notebook**: [document-intellegence-extraction-gpt.ipynb](https://github.com/Mangu/DocExtraction-CU/blob/main/document-extraction-gpt.ipynb)
 - **Description**: This notebook demonstrates how to extract structured data from documents using Azure AI Document Intelligence and Azure OpenAI GPT models. The process involves analyzing a document to extract its structure as Markdown, constructing prompts for extracting structured data, and using the GPT-4o model to generate structured outputs.
   
-- 
 ### Usage
 1. **Clone the Repository:**
     ```sh
