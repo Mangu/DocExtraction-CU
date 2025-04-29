@@ -1,7 +1,10 @@
 # ISDA Document Parsing
 
 ## Overview
-This repository contains the `Extraction` Jupyter Notebooks which is used for document extraction. The notebook leverages Python code for reading documents, extracting relevant information, and processing the extracted data for further analysis or usage.
+This repository contains the `Extraction` Jupyter Notebooks which is used for ISDA agreement document extraction. The notebook leverages Python code for reading documents, extracting relevant information, and processing the extracted data for further analysis or usage.
+
+### ISDA Agreements
+An ISDA Master Agreement is the industry‐standard legal contract used to govern over-the-counter (OTC) derivatives transactions (e.g., interest-rate swaps, credit default swaps, currency forwards) between two parties. Developed and maintained by the International Swaps and Derivatives Association, it provides a common framework of terms—so that the only deal-specific details need to be set out in shorter “confirmation” documents—facilitating both efficiency and legal certainty.
 
 ## Notebooks
 
